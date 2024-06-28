@@ -34,8 +34,8 @@ jobs:
         ls  $GITHUB_WORKSPACE
     - name: Install dependencies    
       uses: py-actions/py-dependency-install@v4
-        with:
-          path:  $GITHUB_WORKSPACE
+      with:
+        path:  $GITHUB_WORKSPACE
     - name: Set environment variables
       env:
           DJANGO_SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
