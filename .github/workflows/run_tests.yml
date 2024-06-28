@@ -26,7 +26,8 @@ jobs:
     - name: Install Chrome
       run: sudo apt-get install google-chrome-stable
     - name: cd to directory
-      run:
+      run: |
+        cd meetandgreet
         ls -la
     - name: Install dependencies    
       run:
