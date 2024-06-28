@@ -25,9 +25,6 @@ jobs:
         python-version: "3.12"
     - name: Install Chrome
       run: sudo apt-get install google-chrome-stable
-    - name: cd to directory
-      run:
-        cd ./meetandgreet
     - name: Install dependencies    
       run:
         pip install -r requirements.txt
