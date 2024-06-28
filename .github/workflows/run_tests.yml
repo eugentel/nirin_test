@@ -35,7 +35,7 @@ jobs:
     - name: Install dependencies    
       uses: py-actions/py-dependency-install@v4
       with:
-        path:  $GITHUB_WORKSPACE/meetandgreet
+        path:  $GITHUB_WORKSPACE/meetandgreet/requirements.txt
     - name: Set environment variables
       env:
           DJANGO_SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
