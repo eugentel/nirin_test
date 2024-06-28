@@ -31,11 +31,11 @@ jobs:
       run: |
         cd meetandgreet
         ls -la
-        ls  $GITHUB_WORKSPACE
+        ls  $GITHUB_WORKSPACE/meetandgreet
     - name: Install dependencies    
       uses: py-actions/py-dependency-install@v4
       with:
-        path:  $GITHUB_WORKSPACE
+        path:  $GITHUB_WORKSPACE/meetandgreet
     - name: Set environment variables
       env:
           DJANGO_SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
