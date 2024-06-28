@@ -6,7 +6,6 @@ on:
       deployment_target:
         description: Выберите тест
         required: true
-        default: all_tests
         type: choice
         options:
           - test_api
