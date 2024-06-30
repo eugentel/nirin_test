@@ -14,7 +14,7 @@
 1. Склонировать репозитарий и запустить сервер по инструкции ниже из раздела "API Meet and Greet"
 2. Получить и прописать секретный ключ "Django secret key"
 3. Открыть проект в  IDE
-4. Запустить тесты tests.py из каталога tests
+4. Запустить тесты tests.py из каталога meetandgreet/mg/tests
 
    
 # API Meet and Greet
